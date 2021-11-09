@@ -1,31 +1,55 @@
-body {
+body{
     background-color: steelblue;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
-header {
+/* header section */
+
+header{
     background-color: seagreen;
     display: flex;
-    flex-wrap: wrap;
     text-align: center;
     justify-content: space-between;
 }
 
-h1 {
-    margin: 5%
+h1{
+    margin: 5% 0% 5% 5%;
 }
 
-ul {
+ul{
     list-style: none;
     display: flex;
     flex-direction: column;
 }
 
-li {
-    margin: 5%;
+li{
+    margin: 5% 5% 5% 0%;
 }
 
-h2 {
+/* content section */
+
+h2{
     display: flex;
     justify-content: flex-end;
 }
+
+article{
+    display: flex;
+}
+
+h3{
+    flex-direction: row;
+    margin-left: 5%;
+    border-right: solid #130a49;
+    justify-content: end;
+}
+
+/* going for a mobile first layout, stlyes for tablets */
+
+@media screen and (min-width: 768px){
+    ul{
+        flex-direction: row;
+    }
+}
+
+/* styles for larger screens */
