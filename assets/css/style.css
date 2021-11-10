@@ -1,19 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     background-color: steelblue;
+    margin: 0;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 /* header section */
 
 header{
-    background-color: seagreen;
     display: flex;
     text-align: center;
     justify-content: space-between;
+    background-color: seagreen;
 }
 
 h1{
-    margin: 5% 0% 5% 5%;
+    background-color: steelblue;
+    margin: 5% 0% 5% 0%;
+    padding-left: 5%;
 }
 
 ul{
@@ -23,7 +30,7 @@ ul{
 }
 
 li{
-    margin: 5% 5% 5% 0%;
+    margin: 5% 5% 5% 5%;
 }
 
 /* content section */
@@ -31,23 +38,37 @@ li{
 h2{
     display: flex;
     justify-content: flex-end;
+    background-color: teal;
+    margin-top: 0%;
 }
 
 article{
     display: flex;
-    padding: 15px;
+    padding: 5px;
 }
 
 h3{
-    justify-content: flex-start;
+    border: hidden;
     padding-right: 5%;
     margin: 0% 5% 0% 5%;
     border-right: solid #130a49;
+    width: 20vw;
+}
+
+.work{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projects{
+    border: solid seagreen ;
+    flex-wrap: wrap;
+    width: 70vw;
 }
 
 img{
-    padding: 10px;
-    width: 10%;
+    padding: 5px;
+    width: 100%;
 }
 
 /* going for a mobile first layout, stlyes for tablets */
@@ -55,6 +76,14 @@ img{
 @media screen and (min-width: 768px){
     ul{
         flex-direction: row;
+    }
+
+    article{
+        flex-wrap: nowrap;
+    }
+    
+    .projects{
+        width: 35vw;
     }
 }
 
