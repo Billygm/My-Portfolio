@@ -14,13 +14,15 @@ header{
     display: flex;
     text-align: center;
     justify-content: space-between;
-    background-color: seagreen;
+    background-color: #121169;
+    height: 125px;
 }
 
 h1{
     background-color: steelblue;
     margin: 5% 0% 5% 0%;
     padding-left: 5%;
+    height: 40px;
 }
 
 ul{
@@ -32,6 +34,10 @@ ul{
 li{
     margin: 5% 5% 5% 5%;
 }
+
+a{
+    color: #000;
+} 
 
 /* content section */
 
@@ -51,8 +57,9 @@ h3{
     border: hidden;
     padding-right: 5%;
     margin: 0% 5% 0% 5%;
-    border-right: solid #130a49;
+    border-right: solid #121169;
     width: 20vw;
+    color: #121169;
 }
 
 .work{
@@ -62,13 +69,19 @@ h3{
 
 .projects{
     border: solid seagreen ;
-    flex-wrap: wrap;
     width: 70vw;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 img{
-    padding: 5px;
+    padding: 0px;
     width: 100%;
+}
+
+.project-title{
+    border: hidden;
+    background-color: seagreen;
 }
 
 /* going for a mobile first layout, stlyes for tablets */
