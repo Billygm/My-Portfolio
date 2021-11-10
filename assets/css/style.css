@@ -84,11 +84,9 @@ h3{
 img{
     padding: 0px;
     max-width: 70vw;
-    flex-grow: 2;
 }
 
 .projects img{
-    flex: 1 1 1;
     max-width: 33vw;
 }
 
