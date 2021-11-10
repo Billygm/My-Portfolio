@@ -58,7 +58,7 @@ h3{
     padding-right: 5%;
     margin: 0% 5% 0% 5%;
     border-right: solid #121169;
-    width: 20vw;
+    width: 75px;
     color: #121169;
 }
 
@@ -67,19 +67,36 @@ h3{
     flex-wrap: wrap;
 }
 
+
 .projects{
     border: solid seagreen ;
     width: 70vw;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
+    position: relative;
+    opacity: 70%;
+}
+
+.primary{
+    width: 70vw;
+    height: 200px;
+}
+
+.projects:hover{
+    opacity: 100%;
+    cursor: pointer;
 }
 
 img{
     padding: 0px;
     width: 100%;
+    height: 200px;
 }
 
 .project-title{
+    position: absolute;
+    bottom: 0;
     border: hidden;
     background-color: seagreen;
 }
@@ -94,10 +111,15 @@ img{
     article{
         flex-wrap: nowrap;
     }
-    
+
     .projects{
         width: 35vw;
     }
+
+    .primary{
+        width: 70vw;
+    }
+
 }
 
 /* styles for larger screens */
