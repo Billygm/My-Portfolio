@@ -79,6 +79,8 @@ h3{
     flex-wrap: wrap;
     position: relative;
     opacity: 70%;
+    margin-bottom: 1vw;
+    margin-right: 1vw;
 }
 
 img{
