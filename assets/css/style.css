@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    --
 }
 
 body{
@@ -40,15 +41,19 @@ a{
 /* content section */
 
 .web-dev{
-    display: flex;
-    justify-content: space-between;
-    background-color: #121169;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/Me.jpg");
+    height: 50%;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
     height: 100px;
 }
 
 h2{
-    display: flex;
-    justify-content: flex-end;
+    position: absolute;
+    right: 0;
+    bottom: 0;
     color: steelblue;
 }
 
