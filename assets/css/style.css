@@ -1,10 +1,11 @@
 *{
     box-sizing: border-box;
-    --
+    --background: #00243d;
+    --accent: #66999b;
 }
 
 body{
-    background-color: steelblue;
+    background-color: var(--background);
     margin: 0;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
@@ -15,13 +16,13 @@ header{
     display: flex;
     text-align: center;
     justify-content: space-between;
-    background-color: steelblue;
+    background-color: var(--background);
 }
 
 h1{
-    background-color: #121169;
+    background-color: var(--accent);
     padding-left: 20px;
-    color: steelblue;
+    color: var(--background);
 }
 
 ul{
@@ -35,7 +36,7 @@ li{
 }
 
 a{
-    color: #000;
+    color: var(--accent);
 } 
 
 /* content section */
@@ -54,23 +55,28 @@ h2{
     position: absolute;
     right: 0;
     bottom: 0;
-    color: steelblue;
+    color: var(--accent);
 }
 
 article{
     display: flex;
     padding: 5px;
+    color: var(--accent);
 }
 
 h3{
     border: hidden;
     padding-right: 5%;
     margin: 0% 5% 0% 5%;
-    border-right: solid #121169;
+    border-right: solid var(--accent);
     width: 75px;
-    color: #121169;
+    color: var(--accent);
 }
 
+.about-me{
+    display: flex;
+    flex-wrap: wrap;
+}
 .work{
     display: flex;
     flex-wrap: wrap;
@@ -78,7 +84,7 @@ h3{
 
 
 .projects{
-    border: solid #121169 ;
+    border: solid var(--accent);
     height: auto;
     display: flex;
     flex-wrap: wrap;
@@ -110,30 +116,16 @@ max-width: 70vw;
     position: absolute;
     bottom: 5%;
     border: hidden;
-    background-color: #121169;
+    background-color: var(--accent);
 }
 
 h4{
     margin: 0;
     font-size: larger;
-    color: steelblue;
+    color: var(--background);
 }
 
 .img-text{
     margin: 0;
-    color: steelblue;
+    color: var(--background);
 }
-
-/* going for a mobile first layout, stlyes for tablets */
-
-@media screen and (min-width: 768px){
-    .projects img{
-        max-width: 37vw;
-    }
-    
-    .primary img{
-    max-width: 75vw;
-    }
-}
-
-/* styles for larger screens */
