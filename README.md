@@ -10,4 +10,4 @@ All the links in the contact me section are working and accurate (my LinkedIn ne
 
 [Click here to go to my portfolio](https://billygm.github.io/My-Portfolio/)
 
-![Screenshot of my full portfolio](./assets/images/)
+![Screenshot of my full portfolio](./assets/images/My-Portfolio.png/)
