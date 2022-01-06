@@ -1,13 +1,13 @@
 # My-Portfolio
 
-This is my first portfolio as a Web Developer, created using html and css. It's still a work in progress, mostly because I have no web applications to showcase yet.
+This is my updated portfolio, it still needs a little work but I feel its a good start
 
-If you click on the nav links at the top they jump you down the page to that section
+I have replaced all my placeholder values with my work so far, but for some reason my live page will not update even after ive pushed up all my content
 
-Because I have no web applications yet I linked my placeholder projects to my github for now.
+All the links in the contact me section are working and accurate.
 
-All the links in the contact me section are working and accurate (my LinkedIn needs a lot of work still...)
+[Portfolio: https://billygm.github.io/My-Portfolio/](https://billygm.github.io/My-Portfolio/)
 
-[Click here to go to my portfolio](https://billygm.github.io/My-Portfolio/)
+[GitHub: https://github.com/Billygm/My-Portfolio](https://github.com/Billygm/My-Portfolio)
 
 ![Screenshot of my full portfolio](./assets/images/My-Portfolio.png/)
