@@ -6,6 +6,10 @@ I have replaced all my placeholder values with my work so far, and linked each i
 
 All the links in the contact me section are working and accurate.
 
+technologies used:
+- html
+- CSS
+
 [Portfolio: https://billygm.github.io/My-Portfolio/](https://billygm.github.io/My-Portfolio/)
 
 [GitHub: https://github.com/Billygm/My-Portfolio](https://github.com/Billygm/My-Portfolio)
